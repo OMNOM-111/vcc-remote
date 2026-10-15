@@ -1,5 +1,14 @@
 # Distribution verification — October 14, 2026 (America/Los_Angeles)
 
+**Update, package 0.1.2 (October 14, 2026, evening PDT):** the publisher approved the
+Vibe Coding Control brand. The package now includes `assets/logo.png` (1024×1024,
+opaque) and `assets/icon.png` (128×128) referenced as `logo` / `composerIcon`, with
+`brandColor` `#3B82F6`. The service was released as VCC **0.1.7** (Production
+release `20261015T044604Z`), including the `annotations.title` metadata patch and
+MCP `serverInfo.icons`. The Registry entry `io.github.OMNOM-111/vcc-remote` **0.1.2**
+(with icons) is active/latest. Schemas and the 12 targeted cases were re-run: PASS.
+Rows below are the original 0.1.1 verification against VCC 0.1.6.
+
 The public service reported VCC **0.1.6**. This package is **0.1.1**; these are
 separate version numbers. No Production deployment was performed in this work.
 

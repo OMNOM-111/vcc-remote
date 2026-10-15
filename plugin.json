@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "vcc-remote",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Connect your Vibe Coding Control projects, tasks and development history to your AI application.",
   "author": {
     "name": "Dmytro Cherevko",
@@ -41,7 +41,10 @@
           "Show the current tasks and development stages in my VCC project",
           "Record this development task in VCC"
         ],
-        "developerName": "Dmytro Cherevko"
+        "developerName": "Dmytro Cherevko",
+        "brandColor": "#3B82F6",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
       },
       "review": {
         "commerce": false,
@@ -98,7 +101,7 @@
         }
       },
       "publication": {
-        "release_notes": "Distribution package 0.1.1: five positive and three negative review cases, current connection instructions, public distribution repository and dedicated support instructions. Existing remote service and OAuth unchanged."
+        "release_notes": "Distribution package 0.1.2: approved Vibe Coding Control logo (1024×1024) and composer icon (128×128). Review cases, connection instructions, remote service and OAuth unchanged from 0.1.1."
       }
     }
   }

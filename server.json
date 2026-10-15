@@ -7,12 +7,28 @@
     "url": "https://github.com/OMNOM-111/vcc-remote",
     "source": "github"
   },
-  "version": "0.1.1",
+  "version": "0.1.2",
   "websiteUrl": "https://vibecodingcontrol.com",
   "remotes": [
     {
       "type": "streamable-http",
       "url": "https://vibecodingcontrol.com/mcp"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://vibecodingcontrol.com/static/brand/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    },
+    {
+      "src": "https://vibecodingcontrol.com/static/brand/vcc-icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
     }
   ]
 }
