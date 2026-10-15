@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.OMNOM-111/vcc-remote",
+  "title": "Vibe Coding Control",
+  "description": "Your VCC projects, tasks, AI development history and owner decisions. Sign in with your VCC account.",
+  "repository": {
+    "url": "https://github.com/OMNOM-111/vcc-remote",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "websiteUrl": "https://vibecodingcontrol.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vibecodingcontrol.com/mcp"
+    }
+  ]
+}
