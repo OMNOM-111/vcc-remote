@@ -59,7 +59,8 @@ the common OpenAI directory. Both products use the same remote service.
 There are no embedded credentials, app references or lifecycle hooks.
 `server.json` is the official MCP Registry submission descriptor.
 
-[Review scenarios and recording guide](REVIEW.md). No public marketplace
-approval is implied by this repository or a ZIP download. The graphics-free
-portable package is a draft for OpenAI until the publisher supplies approved icons,
-verification, a reviewer account and an accessible demonstration.
+[Review scenarios and recording guide](REVIEW.md). Distribution package 0.1.2
+includes the approved VCC logo and icon. The official MCP Registry entry is
+published; individual platform directory reviews remain separate. No marketplace
+approval is implied by this repository or a ZIP download. OpenAI submission still
+requires portal access, domain verification, reviewer access and a demonstration.
