@@ -16,6 +16,12 @@ https://vibecodingcontrol.com/mcp/connections.
 
 ## Connect
 
+[Add to Cursor](https://cursor.com/link/mcp/install?name=vcc-remote&config=eyJ1cmwiOiJodHRwczovL3ZpYmVjb2Rpbmdjb250cm9sLmNvbS9tY3AifQ%3D%3D) · [Add to VS Code](vscode:mcp/install?%7B%22name%22%3A%22vcc-remote%22%2C%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fvibecodingcontrol.com%2Fmcp%22%7D)
+
+These official install links open the editor confirmation and then the normal
+OAuth sign-in. If your Markdown viewer blocks editor links, use the steps below.
+Native editor installation of these links is not yet verified for this release.
+
 | Platform | Supported connection |
 |---|---|
 | VS Code | MCP: Add Server → HTTP → enter the MCP URL → sign in. See `connections/vscode.json` for the equivalent configuration. |
@@ -23,7 +29,7 @@ https://vibecodingcontrol.com/mcp/connections.
 | Claude | Settings → Connectors → Add custom connector → enter the MCP URL → Connect and sign in. The public directory listing is a separate review. |
 | ChatGPT | Plugins → Add custom MCP server, where available → MCP URL → OAuth/DCR. Public directory publication requires OpenAI approval. |
 | Codex | Use the same OpenAI plugin when published, or the commands below for the CLI. |
-| Windsurf / Devin Desktop | Cascade: add the entry in `connections/cascade.json` to the existing MCP config, then complete OAuth. Devin Local uses the separate Devin CLI MCP configuration. Cascade has no MCP marketplace or one-click install. |
+| Windsurf / Devin Desktop | Cascade: add the entry in `connections/cascade.json` to the existing MCP config, then complete OAuth. Devin Local: `devin mcp add -s user vcc-remote https://vibecodingcontrol.com/mcp`, then `devin mcp login vcc-remote`. Cascade has no MCP marketplace or one-click install. |
 
 ```sh
 codex mcp add vcc-remote --url https://vibecodingcontrol.com/mcp
