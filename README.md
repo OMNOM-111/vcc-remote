@@ -7,9 +7,13 @@ record factual work, and request or retrieve owner decisions.
 - Remote MCP: **https://vibecodingcontrol.com/mcp**
 - [Support](SUPPORT.md) · [Privacy](https://vibecodingcontrol.com/privacy#en) · [Terms](https://vibecodingcontrol.com/terms#en)
 
+Languages: English and Russian. The workflow answers in the user's language; tool names and
+arguments are the same. Русский: подключение по адресу https://vibecodingcontrol.com/mcp,
+вход в аккаунт VCC и ответы на языке пользователя.
+
 This repository contains only distribution manifests, connection examples and one
 workflow skill. The VCC application source and user data are not included.
-An account is required. Use the normal VCC Google sign-in and OAuth consent;
+An account is required. Use normal VCC sign-in (Google or email/password) and OAuth consent;
 there are no tokens to copy and no server to install. Remote access includes your
 own current and future VCC projects. Revoke an application at
 https://vibecodingcontrol.com/mcp/connections.
@@ -26,8 +30,8 @@ Native editor installation of these links is not yet verified for this release.
 |---|---|
 | VS Code | MCP: Add Server → HTTP → enter the MCP URL → sign in. See `connections/vscode.json` for the equivalent configuration. |
 | Cursor | Add the URL under MCP settings and complete OAuth, or install this Agent Plugins package when the public marketplace listing is approved. |
-| Claude | Settings → Connectors → Add custom connector → enter the MCP URL → Connect and sign in. The public directory listing is a separate review. |
-| ChatGPT | Plugins → Add custom MCP server, where available → MCP URL → OAuth/DCR. Public directory publication requires OpenAI approval. |
+| Claude | Install from the [Claude directory](https://claude.ai/directory/vibe-coding-control) (published Community connector), or Settings → Connectors → Add custom connector → enter the MCP URL → Connect and sign in. |
+| ChatGPT | The official VCC app is under OpenAI review. ChatGPT Business and Enterprise/Edu workspace admins can add VCC now: Plugins → + → Add custom MCP server → MCP URL → OAuth/DCR. |
 | Codex | Use the same OpenAI plugin when published, or the commands below for the CLI. |
 | Windsurf / Devin Desktop | Cascade: add the entry in `connections/cascade.json` to the existing MCP config, then complete OAuth. Devin Local: `devin mcp add -s user vcc-remote https://vibecodingcontrol.com/mcp`, then `devin mcp login vcc-remote`. Cascade has no MCP marketplace or one-click install. |
 
@@ -61,6 +65,5 @@ There are no embedded credentials, app references or lifecycle hooks.
 
 [Review scenarios and recording guide](REVIEW.md). Distribution package 0.1.2
 includes the approved VCC logo and icon. The official MCP Registry entry is
-published; individual platform directory reviews remain separate. No marketplace
-approval is implied by this repository or a ZIP download. OpenAI submission still
-requires portal access, domain verification, reviewer access and a demonstration.
+published, and so is the Claude directory listing; other platform directory reviews remain separate. No marketplace
+approval is implied by this repository or a ZIP download. The OpenAI submission is under review.
